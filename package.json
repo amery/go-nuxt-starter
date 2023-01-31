@@ -6,8 +6,10 @@
   "license": "MIT",
   "description": "",
   "main": "index.ts",
-  "dependencies": {},
-  "devDependencies": {},
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -C web/client dev"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amery/go-nuxt-starter.git"
@@ -15,5 +17,7 @@
   "bugs": {
     "url": "https://github.com/amery/go-nuxt-starter/issues"
   },
+  "dependencies": {},
+  "devDependencies": {},
   "packageManager": "^pnpm@7.26.0"
 }
