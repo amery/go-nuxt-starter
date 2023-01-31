@@ -8,11 +8,18 @@ export default defineNuxtConfig({
 	telemetry: true,
 
 	modules: [
+		// https://github.com/kevinmarrec/nuxt-pwa-module
+		"@kevinmarrec/nuxt-pwa",
+		// https://github.com/nuxt-alt/proxy
 		"@nuxt-alt/proxy",
 	],
 
 	typescript: {
 		strict: true,
+	},
+
+	pwa: {
+		icon: false,
 	},
 
 	proxy: {

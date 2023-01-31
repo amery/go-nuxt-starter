@@ -6,6 +6,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.15.0",
     "@nuxt-alt/proxy": "^2.2.0"
   },
   "devDependencies": {
