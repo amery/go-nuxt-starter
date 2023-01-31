@@ -1,0 +1,19 @@
+{
+  "name": "go-nuxt-starter",
+  "version": "0.0.0",
+  "author": "Alejandro Mery <amery@jpi.io>",
+  "homepage": "https://github.com/amery/go-nuxt-starter#readme",
+  "license": "MIT",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amery/go-nuxt-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amery/go-nuxt-starter/issues"
+  },
+  "packageManager": "^pnpm@7.26.0"
+}
